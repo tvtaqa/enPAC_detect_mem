@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="enPAC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enPAC">
+				<Option output="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/enPAC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tvtaqa/Documents/Clion_Projects/enPAC/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 enPAC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enPAC/fast">
+				<Option output="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/enPAC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tvtaqa/Documents/Clion_Projects/enPAC/."/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 enPAC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Data_Structures.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Data_Structures.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Lexer.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Lexer.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Petri_Net.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Petri_Net.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/RG.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/RG.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/SBA.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/SBA.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Syntax_Tree.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/Syntax_Tree.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/TBA.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/TBA.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/TGBA.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/TGBA.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/main.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/product.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/product.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/tinystr.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/tinystr.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxml.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxml.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlerror.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlparser.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/xml2ltl.cpp">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/xml2ltl.h">
+			<Option target="enPAC"/>
+		</Unit>
+		<Unit filename="/home/tvtaqa/Documents/Clion_Projects/enPAC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

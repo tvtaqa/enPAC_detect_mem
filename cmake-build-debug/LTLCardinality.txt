@@ -1,0 +1,16 @@
+CircularTrains-PT-012-LTLCardinality-00:[]([]({token-count(F4,)<=token-count(Section_6,)}))
+CircularTrains-PT-012-LTLCardinality-01:X([](({token-count(F7,)<=token-count(Section_10,)})U({token-count(Section_8,)<=token-count(Section_10,)})))
+CircularTrains-PT-012-LTLCardinality-02:{1<=token-count(Section_9,)}
+CircularTrains-PT-012-LTLCardinality-03:X({1<=token-count(F9,)})
+CircularTrains-PT-012-LTLCardinality-04:X(X(({1<=token-count(Section_8,)})U({3<=token-count(F6,)})))
+CircularTrains-PT-012-LTLCardinality-05:X(({3<=token-count(Section_2,)})U({2<=token-count(Section_3,)}))
+CircularTrains-PT-012-LTLCardinality-06:[]([]({token-count(Section_10,)<=token-count(F6,)}))
+CircularTrains-PT-012-LTLCardinality-07:X(<>({3<=token-count(Section_2,)}))
+CircularTrains-PT-012-LTLCardinality-08:<>(([]({token-count(Section_6,)<=token-count(F1,)}))U(X({token-count(F7,)<=token-count(Section_8,)})))
+CircularTrains-PT-012-LTLCardinality-09:<>(<>(({1<=token-count(Section_4,)})U({token-count(F3,)<=token-count(F12,)})))
+CircularTrains-PT-012-LTLCardinality-10:X(X([](<>({token-count(F2,)<=token-count(F7,)}))))
+CircularTrains-PT-012-LTLCardinality-11:X(X([](X({token-count(F7,)<=token-count(F3,)}))))
+CircularTrains-PT-012-LTLCardinality-12:[](<>([]({2<=token-count(Section_4,)})))
+CircularTrains-PT-012-LTLCardinality-13:{1<=token-count(F5,)}
+CircularTrains-PT-012-LTLCardinality-14:(({2<=token-count(Section_9,)})U({token-count(F2,)<=token-count(Section_10,)}))U(({1<=token-count(Section_11,)})U({token-count(F2,)<=token-count(Section_12,)}))
+CircularTrains-PT-012-LTLCardinality-15:X([]({2<=token-count(F10,)}))

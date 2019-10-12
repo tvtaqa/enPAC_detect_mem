@@ -1,0 +1,16 @@
+CircularTrains-PT-012-LTLFireability-00:X([](<>(({t9_to_10,})U({t3_to_4,}))))
+CircularTrains-PT-012-LTLFireability-01:[]({t7_to_8,})
+CircularTrains-PT-012-LTLFireability-02:(<>({t2_to_3,}))U((X({t8_to_9,}))U(X({t2_to_3,})))
+CircularTrains-PT-012-LTLFireability-03:(X({t9_to_10,}))U({t8_to_9,})
+CircularTrains-PT-012-LTLFireability-04:{t8_to_9,}
+CircularTrains-PT-012-LTLFireability-05:<>(({t5_to_6,})U(X(X({t9_to_10,}))))
+CircularTrains-PT-012-LTLFireability-06:{t11_to_12,}
+CircularTrains-PT-012-LTLFireability-07:[](([]([]({t2_to_3,})))U(<>([]({t6_to_7,}))))
+CircularTrains-PT-012-LTLFireability-08:[]([]([]({t6_to_7,})))
+CircularTrains-PT-012-LTLFireability-09:{t10_to_11,}
+CircularTrains-PT-012-LTLFireability-10:[](({t1_to_2,})U([](<>({t5_to_6,}))))
+CircularTrains-PT-012-LTLFireability-11:<>([]([](<>([]({t9_to_10,})))))
+CircularTrains-PT-012-LTLFireability-12:<>((X([]({t1_to_2,})))U(<>([]({t8_to_9,}))))
+CircularTrains-PT-012-LTLFireability-13:(X(<>(<>({t6_to_7,}))))U(<>(X([]({t10_to_11,}))))
+CircularTrains-PT-012-LTLFireability-14:<>({t12_to_1,})
+CircularTrains-PT-012-LTLFireability-15:(<>(X(X({t12_to_1,}))))U([](({t9_to_10,})U({t8_to_9,})))
