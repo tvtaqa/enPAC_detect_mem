@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/tvtaqa/Documents/clion-2019.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/tvtaqa/文档/clion-2019.2.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/tvtaqa/Documents/clion-2019.2.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/tvtaqa/文档/clion-2019.2.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tvtaqa/Documents/Clion_Projects/enPAC
+CMAKE_SOURCE_DIR = /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/enPAC.dir/depend.make
@@ -59,198 +59,198 @@ include CMakeFiles/enPAC.dir/flags.make
 
 CMakeFiles/enPAC.dir/Data_Structures.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/Data_Structures.cpp.o: ../Data_Structures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/enPAC.dir/Data_Structures.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Data_Structures.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/Data_Structures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/enPAC.dir/Data_Structures.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Data_Structures.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Data_Structures.cpp
 
 CMakeFiles/enPAC.dir/Data_Structures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/Data_Structures.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/Data_Structures.cpp > CMakeFiles/enPAC.dir/Data_Structures.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Data_Structures.cpp > CMakeFiles/enPAC.dir/Data_Structures.cpp.i
 
 CMakeFiles/enPAC.dir/Data_Structures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/Data_Structures.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/Data_Structures.cpp -o CMakeFiles/enPAC.dir/Data_Structures.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Data_Structures.cpp -o CMakeFiles/enPAC.dir/Data_Structures.cpp.s
 
 CMakeFiles/enPAC.dir/Lexer.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/enPAC.dir/Lexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Lexer.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/enPAC.dir/Lexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Lexer.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Lexer.cpp
 
 CMakeFiles/enPAC.dir/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/Lexer.cpp > CMakeFiles/enPAC.dir/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Lexer.cpp > CMakeFiles/enPAC.dir/Lexer.cpp.i
 
 CMakeFiles/enPAC.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/Lexer.cpp -o CMakeFiles/enPAC.dir/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Lexer.cpp -o CMakeFiles/enPAC.dir/Lexer.cpp.s
 
 CMakeFiles/enPAC.dir/main.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enPAC.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/main.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enPAC.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/main.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/main.cpp
 
 CMakeFiles/enPAC.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/main.cpp > CMakeFiles/enPAC.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/main.cpp > CMakeFiles/enPAC.dir/main.cpp.i
 
 CMakeFiles/enPAC.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/main.cpp -o CMakeFiles/enPAC.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/main.cpp -o CMakeFiles/enPAC.dir/main.cpp.s
 
 CMakeFiles/enPAC.dir/Petri_Net.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/Petri_Net.cpp.o: ../Petri_Net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enPAC.dir/Petri_Net.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Petri_Net.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/Petri_Net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enPAC.dir/Petri_Net.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Petri_Net.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Petri_Net.cpp
 
 CMakeFiles/enPAC.dir/Petri_Net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/Petri_Net.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/Petri_Net.cpp > CMakeFiles/enPAC.dir/Petri_Net.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Petri_Net.cpp > CMakeFiles/enPAC.dir/Petri_Net.cpp.i
 
 CMakeFiles/enPAC.dir/Petri_Net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/Petri_Net.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/Petri_Net.cpp -o CMakeFiles/enPAC.dir/Petri_Net.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Petri_Net.cpp -o CMakeFiles/enPAC.dir/Petri_Net.cpp.s
 
 CMakeFiles/enPAC.dir/product.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/product.cpp.o: ../product.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enPAC.dir/product.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/product.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enPAC.dir/product.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/product.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/product.cpp
 
 CMakeFiles/enPAC.dir/product.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/product.cpp > CMakeFiles/enPAC.dir/product.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/product.cpp > CMakeFiles/enPAC.dir/product.cpp.i
 
 CMakeFiles/enPAC.dir/product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/product.cpp -o CMakeFiles/enPAC.dir/product.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/product.cpp -o CMakeFiles/enPAC.dir/product.cpp.s
 
 CMakeFiles/enPAC.dir/RG.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/RG.cpp.o: ../RG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enPAC.dir/RG.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/RG.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/RG.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enPAC.dir/RG.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/RG.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/RG.cpp
 
 CMakeFiles/enPAC.dir/RG.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/RG.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/RG.cpp > CMakeFiles/enPAC.dir/RG.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/RG.cpp > CMakeFiles/enPAC.dir/RG.cpp.i
 
 CMakeFiles/enPAC.dir/RG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/RG.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/RG.cpp -o CMakeFiles/enPAC.dir/RG.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/RG.cpp -o CMakeFiles/enPAC.dir/RG.cpp.s
 
 CMakeFiles/enPAC.dir/SBA.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/SBA.cpp.o: ../SBA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/enPAC.dir/SBA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/SBA.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/SBA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/enPAC.dir/SBA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/SBA.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/SBA.cpp
 
 CMakeFiles/enPAC.dir/SBA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/SBA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/SBA.cpp > CMakeFiles/enPAC.dir/SBA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/SBA.cpp > CMakeFiles/enPAC.dir/SBA.cpp.i
 
 CMakeFiles/enPAC.dir/SBA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/SBA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/SBA.cpp -o CMakeFiles/enPAC.dir/SBA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/SBA.cpp -o CMakeFiles/enPAC.dir/SBA.cpp.s
 
 CMakeFiles/enPAC.dir/Syntax_Tree.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/Syntax_Tree.cpp.o: ../Syntax_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enPAC.dir/Syntax_Tree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Syntax_Tree.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/Syntax_Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enPAC.dir/Syntax_Tree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/Syntax_Tree.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Syntax_Tree.cpp
 
 CMakeFiles/enPAC.dir/Syntax_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/Syntax_Tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/Syntax_Tree.cpp > CMakeFiles/enPAC.dir/Syntax_Tree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Syntax_Tree.cpp > CMakeFiles/enPAC.dir/Syntax_Tree.cpp.i
 
 CMakeFiles/enPAC.dir/Syntax_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/Syntax_Tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/Syntax_Tree.cpp -o CMakeFiles/enPAC.dir/Syntax_Tree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/Syntax_Tree.cpp -o CMakeFiles/enPAC.dir/Syntax_Tree.cpp.s
 
 CMakeFiles/enPAC.dir/TBA.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/TBA.cpp.o: ../TBA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/enPAC.dir/TBA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/TBA.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/TBA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/enPAC.dir/TBA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/TBA.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/TBA.cpp
 
 CMakeFiles/enPAC.dir/TBA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/TBA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/TBA.cpp > CMakeFiles/enPAC.dir/TBA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/TBA.cpp > CMakeFiles/enPAC.dir/TBA.cpp.i
 
 CMakeFiles/enPAC.dir/TBA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/TBA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/TBA.cpp -o CMakeFiles/enPAC.dir/TBA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/TBA.cpp -o CMakeFiles/enPAC.dir/TBA.cpp.s
 
 CMakeFiles/enPAC.dir/TGBA.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/TGBA.cpp.o: ../TGBA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/enPAC.dir/TGBA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/TGBA.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/TGBA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/enPAC.dir/TGBA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/TGBA.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/TGBA.cpp
 
 CMakeFiles/enPAC.dir/TGBA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/TGBA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/TGBA.cpp > CMakeFiles/enPAC.dir/TGBA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/TGBA.cpp > CMakeFiles/enPAC.dir/TGBA.cpp.i
 
 CMakeFiles/enPAC.dir/TGBA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/TGBA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/TGBA.cpp -o CMakeFiles/enPAC.dir/TGBA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/TGBA.cpp -o CMakeFiles/enPAC.dir/TGBA.cpp.s
 
 CMakeFiles/enPAC.dir/tinystr.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/tinystr.cpp.o: ../tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/enPAC.dir/tinystr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinystr.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/enPAC.dir/tinystr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinystr.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinystr.cpp
 
 CMakeFiles/enPAC.dir/tinystr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/tinystr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/tinystr.cpp > CMakeFiles/enPAC.dir/tinystr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinystr.cpp > CMakeFiles/enPAC.dir/tinystr.cpp.i
 
 CMakeFiles/enPAC.dir/tinystr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/tinystr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/tinystr.cpp -o CMakeFiles/enPAC.dir/tinystr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinystr.cpp -o CMakeFiles/enPAC.dir/tinystr.cpp.s
 
 CMakeFiles/enPAC.dir/tinyxml.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/tinyxml.cpp.o: ../tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/enPAC.dir/tinyxml.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinyxml.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/enPAC.dir/tinyxml.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinyxml.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxml.cpp
 
 CMakeFiles/enPAC.dir/tinyxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/tinyxml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxml.cpp > CMakeFiles/enPAC.dir/tinyxml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxml.cpp > CMakeFiles/enPAC.dir/tinyxml.cpp.i
 
 CMakeFiles/enPAC.dir/tinyxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/tinyxml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxml.cpp -o CMakeFiles/enPAC.dir/tinyxml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxml.cpp -o CMakeFiles/enPAC.dir/tinyxml.cpp.s
 
 CMakeFiles/enPAC.dir/tinyxmlerror.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/tinyxmlerror.cpp.o: ../tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/enPAC.dir/tinyxmlerror.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinyxmlerror.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/enPAC.dir/tinyxmlerror.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinyxmlerror.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxmlerror.cpp
 
 CMakeFiles/enPAC.dir/tinyxmlerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/tinyxmlerror.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlerror.cpp > CMakeFiles/enPAC.dir/tinyxmlerror.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxmlerror.cpp > CMakeFiles/enPAC.dir/tinyxmlerror.cpp.i
 
 CMakeFiles/enPAC.dir/tinyxmlerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/tinyxmlerror.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlerror.cpp -o CMakeFiles/enPAC.dir/tinyxmlerror.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxmlerror.cpp -o CMakeFiles/enPAC.dir/tinyxmlerror.cpp.s
 
 CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o: ../tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxmlparser.cpp
 
 CMakeFiles/enPAC.dir/tinyxmlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/tinyxmlparser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlparser.cpp > CMakeFiles/enPAC.dir/tinyxmlparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxmlparser.cpp > CMakeFiles/enPAC.dir/tinyxmlparser.cpp.i
 
 CMakeFiles/enPAC.dir/tinyxmlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/tinyxmlparser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/tinyxmlparser.cpp -o CMakeFiles/enPAC.dir/tinyxmlparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/tinyxmlparser.cpp -o CMakeFiles/enPAC.dir/tinyxmlparser.cpp.s
 
 CMakeFiles/enPAC.dir/xml2ltl.cpp.o: CMakeFiles/enPAC.dir/flags.make
 CMakeFiles/enPAC.dir/xml2ltl.cpp.o: ../xml2ltl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/enPAC.dir/xml2ltl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/xml2ltl.cpp.o -c /home/tvtaqa/Documents/Clion_Projects/enPAC/xml2ltl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/enPAC.dir/xml2ltl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enPAC.dir/xml2ltl.cpp.o -c /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/xml2ltl.cpp
 
 CMakeFiles/enPAC.dir/xml2ltl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enPAC.dir/xml2ltl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/Documents/Clion_Projects/enPAC/xml2ltl.cpp > CMakeFiles/enPAC.dir/xml2ltl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/xml2ltl.cpp > CMakeFiles/enPAC.dir/xml2ltl.cpp.i
 
 CMakeFiles/enPAC.dir/xml2ltl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enPAC.dir/xml2ltl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/Documents/Clion_Projects/enPAC/xml2ltl.cpp -o CMakeFiles/enPAC.dir/xml2ltl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/xml2ltl.cpp -o CMakeFiles/enPAC.dir/xml2ltl.cpp.s
 
 # Object files for target enPAC
 enPAC_OBJECTS = \
@@ -290,7 +290,7 @@ enPAC: CMakeFiles/enPAC.dir/tinyxmlparser.cpp.o
 enPAC: CMakeFiles/enPAC.dir/xml2ltl.cpp.o
 enPAC: CMakeFiles/enPAC.dir/build.make
 enPAC: CMakeFiles/enPAC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable enPAC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable enPAC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enPAC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -303,6 +303,6 @@ CMakeFiles/enPAC.dir/clean:
 .PHONY : CMakeFiles/enPAC.dir/clean
 
 CMakeFiles/enPAC.dir/depend:
-	cd /home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tvtaqa/Documents/Clion_Projects/enPAC /home/tvtaqa/Documents/Clion_Projects/enPAC /home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug /home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug /home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles/enPAC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles/enPAC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/enPAC.dir/depend
 

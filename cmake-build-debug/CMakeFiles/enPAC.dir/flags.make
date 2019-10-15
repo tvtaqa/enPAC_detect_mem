@@ -6,5 +6,5 @@ CXX_FLAGS =  -pthread -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tvtaqa/Documents/Clion_Projects/enPAC/. 
+CXX_INCLUDES = -I/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/. 
 

@@ -1,3 +1,3 @@
-/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles/enPAC.dir
-/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles/enPAC.dir
+/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/CMakeFiles/edit_cache.dir

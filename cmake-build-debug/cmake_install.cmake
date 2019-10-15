@@ -1,4 +1,4 @@
-# Install script for directory: /home/tvtaqa/Documents/Clion_Projects/enPAC
+# Install script for directory: /home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tvtaqa/Documents/Clion_Projects/enPAC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tvtaqa/文档/Clion_Projects/enPAC_detect_mem/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

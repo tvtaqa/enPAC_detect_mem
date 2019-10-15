@@ -10,6 +10,7 @@
 #include <algorithm>
 #include <set>
 #include <thread>
+#include <pthread.h>
 #include <vector>
 #include <string>
 #include <cstdlib>
@@ -107,6 +108,7 @@ private:
     bool memory_flag;
     bool check_end;
     thread detect_mem_thread;
+    pthread_t memory_thread;
 public:
     Product_Automata(Petri *pt, rg_T* r, SBA *sba);
     void getProduct();         //合成交自动机
@@ -126,7 +128,7 @@ public:
     NUM_t getConflictTimes();
     int getNodecount();
     void printNegapth(ofstream &outpath);
-    void detect_memory();
+    static void *detect_memory(void *tmp);
     ~Product_Automata();
 };
 
@@ -395,7 +397,13 @@ void Product_Automata<rgnode,rg_T>::getProduct() {
  * */
 template <class rgnode, class rg_T>
 void Product_Automata<rgnode,rg_T>::getProduct_Bound() {
-    detect_mem_thread = thread(&Product_Automata::detect_memory,this);
+    //detect_mem_thread = thread(&Product_Automata::detect_memory,this);
+    int ret = pthread_create(&memory_thread,NULL,detect_memory,(void *)this);
+    if(ret != 0)
+    {
+        cerr<<"内存检测线程创建失败";
+    }
+
     //如果还未得到rg的初始状态，那么就生成他的初始状态
     if(rg->initnode == NULL){
         rg->RGinitialnode();
@@ -439,7 +447,11 @@ void Product_Automata<rgnode,rg_T>::getProduct_Bound() {
 
     if(bound>CUTOFF)cout<<"out of the bound"<<endl;
     check_end = true;
-    detect_mem_thread.join();
+    if(pthread_join(memory_thread,NULL))
+    {
+        cerr<<"error of joining thread"<<endl;
+    }
+    //detect_mem_thread.join();
 
 }
 
@@ -1192,9 +1204,9 @@ void Product_Automata<rgnode,rg_T>::printNegapth(ofstream &outpath) {
 }
 
 template <class rgnode,class rg_T>
-void Product_Automata<rgnode,rg_T>::detect_memory()
+void *Product_Automata<rgnode,rg_T>::detect_memory(void *tmp)
 {
-
+    Product_Automata *p = (Product_Automata *)tmp;
     for(;;)
     {
         FILE *pf;
@@ -1215,9 +1227,9 @@ void Product_Automata<rgnode,rg_T>::detect_memory()
 
             //判断enPAC占用的内存，超过一定比例，则将memory_flag=false
             //同时break，让dfs（）进行return，结束此公式的search
-            if(100*used/total_mem > 70)
+            if(100*used/total_mem > 40)
             {
-                memory_flag = false;
+                p->memory_flag = false;
                 cout<<"detect memory over the size  given"<<endl;
                 break;
             }
@@ -1227,7 +1239,7 @@ void Product_Automata<rgnode,rg_T>::detect_memory()
         }
 
         //若此公式的搜索结束了，则此子线程也结束，跳出循环
-        if(check_end)
+        if(p->check_end)
         {
             break;
         }

@@ -7,19 +7,19 @@ SBA::SBA()
 void SBA::CreatSBA(TBA &tba)
 {
 	int num = tba.vex_num;
-	for (int statesi = 0; statesi < num; statesi++)    //statesi表示tba中顶点表的第i个节点
+	for (int statesi = 0; statesi < num; statesi++)    //statesi???tba?卸??????i?????
 	{
 		if (statesi == 9)
 			int a = 0;
-		set<int> sincoming;       //statesi在SBA的邻接表中的前集节点
-		set<int> soutset;            //statesi在SBA的邻接表中的前集节点
+		set<int> sincoming;       //statesi??SBA???????械???????
+		set<int> soutset;            //statesi??SBA???????械???????
 
-		//1.找到statesi节点的所有入边
+		//1.???statesi???????????
 		set<int> incoming = tba.vertics[statesi].incoming;
 		set<int>::iterator arcj_statesi;
 		for (arcj_statesi=incoming.begin();arcj_statesi!=incoming.end();arcj_statesi++)
 		{
-			//arcj_statesi表示到达statesi的第j条边
+			//arcj_statesi???????statesi???j????
 			ArcNode *p = tba.vertics[*arcj_statesi].firstarc;
 			while (p != NULL)
 			{
@@ -27,10 +27,10 @@ void SBA::CreatSBA(TBA &tba)
 				{
 					if (p->sstateloc == -1)
 					{
-						//该迁移还没有对应的状态
+						//????????卸??????
 						sincoming.insert(svex_num);
 						p->sstateloc = svex_num;
-						//创建对应的状态
+						//???????????
 						svertics[svex_num].data = svex_num;
 						svertics[svex_num].firstarc = NULL;
 						svertics[svex_num].isAccept = tba.vertics[statesi].isAccept;
@@ -41,7 +41,7 @@ void SBA::CreatSBA(TBA &tba)
 					}
 					else
 					{
-						//该迁移已有对应的状态
+						//????????卸??????
 						sincoming.insert(p->sstateloc);
 						svertics[p->sstateloc].isAccept = tba.vertics[statesi].isAccept;
 					}
@@ -58,13 +58,13 @@ void SBA::CreatSBA(TBA &tba)
 			}
 		}
 
-		//2.找到statesi节点的所有出边
+		//2.???statesi???????谐???
 		ArcNode *q = tba.vertics[statesi].firstarc;
 		while (q != NULL)
 		{
 			if (q->sstateloc == -1)
 			{
-				//该迁移在邻接表中还未有相对应的状态
+				//????????????谢?未??????????
 				soutset.insert(svex_num);
 				q->sstateloc = svex_num;
 				svertics[svex_num].data = svex_num;
@@ -77,14 +77,14 @@ void SBA::CreatSBA(TBA &tba)
 			}
 			else
 			{
-				//该迁移在邻接表中已有相应的状态
+				//????????????????????????
 				soutset.insert(q->sstateloc);
 				svertics[q->sstateloc].isInitial= (statesi == 0) ? true : false;
 			}
 			q = q->nextarc;
 		}
 
-		//3.每条入边到每条出边迁一个迁移
+		//3.?????????????????????
 		set<int>::iterator in;
 		set<int>::iterator out;
 		for (in = sincoming.begin(); in != sincoming.end(); in++)
@@ -155,13 +155,13 @@ void SBA::Simplify()
 				continue;
 			if ((svertics[i].fullfilledAP == svertics[j].fullfilledAP) 
 				&& (svertics[i].outset == svertics[j].outset)
-				&& (svertics[i].isAccept==svertics[j].isAccept))    //两个状态等价
+				&& (svertics[i].isAccept==svertics[j].isAccept))    //?????????
 			{
-				//删除状态j和j发出的所有迁移，将指向j的迁移指向状态i
-				//1.删除状态j和j发出的所有迁移
+				//?????j??j???????????????????j??????????i
+				//1.?????j??j?????????????
 				svertics[j].data = -1;
 				Delallarc(j);
-				//2.将指向j的迁移指向状态i
+				//2.?????j??????????i
 				for (set<int>::iterator iter = svertics[j].incoming.begin(); iter != svertics[j].incoming.end(); iter++)
 				{
 					Delarc(*iter, j);
@@ -194,7 +194,7 @@ void SBA::Compress()
 		}
 		else
 		{
-			//1.维护incoming数据域
+			//1.???incoming??????
 			set<int>::iterator in;
 			for (in = svertics[occupied_ptr].incoming.begin(); in != svertics[occupied_ptr].incoming.end(); in++)
 			{
@@ -218,7 +218,7 @@ void SBA::Compress()
 				}
 			}
 			
-			//2.维护outset数据域
+			//2.???outset??????
 			set<int>::iterator out;
 			for (out = svertics[occupied_ptr].outset.begin(); out != svertics[occupied_ptr].outset.end(); out++)
 			{
@@ -226,7 +226,7 @@ void SBA::Compress()
 				svertics[*out].incoming.insert(empty_ptr);
 			}
 
-			//3.将occupied_ptr数据挪到empty_ptr数据区
+			//3.??occupied_ptr???????empty_ptr??????
 			//memcpy(&svertics[empty_ptr], &svertics[occupied_ptr], sizeof(SVNode));
 			svertics[empty_ptr].data = svertics[occupied_ptr].data;
 			svertics[empty_ptr].firstarc = svertics[occupied_ptr].firstarc;
